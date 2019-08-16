@@ -1,0 +1,33 @@
+{
+  "name": "portafoli",
+  "version": "1.0.0",
+  "description": "personal webpage and portfolio for webadmin",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon --watch api --exec \"nuxt\"",
+    "devold": "concurrently \"nuxt\" \"nodemon ./api/build\"",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.5",
+    "@types/express": "^4.17.0",
+    "@types/morgan": "^1.7.36",
+    "concurrently": "^4.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fibers": "^4.0.1",
+    "morgan": "^1.9.1",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "vue-jest": "^4.0.0-0"
+  }
+}
