@@ -21,7 +21,7 @@
     "express": "^4.17.1",
     "fibers": "^4.0.1",
     "morgan": "^1.9.1",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.0.0",
